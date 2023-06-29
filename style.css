@@ -180,4 +180,57 @@
     display: inline-block;
     margin-left: 25px;
 }
+.all-categories-list ul li{
+    list-style-type: none;
+}
+.all-categories{
+    list-style: none;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 49vw;
+    margin-inline: auto;
+    margin-top: 100px;
+}
 
+.all-categories-list{
+    display: flex; 
+   justify-content: space-between;
+   margin-inline: 0px;
+}
+
+.all-categories-head{
+    font-family:'Okra', Helvetica;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin: 24px 0px;
+    margin-left: 30px;
+}
+
+.list ul li{
+    color: #666;
+    margin-top: 8px;
+    font-family: 'Okra', Helvetica;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    white-space: normal;
+    width: 49vw;
+    margin-top: 10px;
+}
+
+.main-footer{
+    background-color: #F8F8F8;
+}
+
+.info p{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    font-family: 'Okra', Helvetica;
+    line-height: 18px;
+    margin: 12px
+}

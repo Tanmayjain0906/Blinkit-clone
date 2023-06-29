@@ -28,6 +28,7 @@
     border: 1px solid #eeeeee;
     background-color: white;
     position: sticky;
+    z-index: 5;
     top: 0px;
 }
 .blinkit-logo{
@@ -71,7 +72,8 @@
 }
 .card{
     width: 179px;
-    
+    position: absolute;
+    z-index: 1;
     
 }
 .card img{
@@ -96,7 +98,6 @@
     color: rgb(31, 31, 31);
     font-weight: 600;
     font-size: 13px;
-    display: -webkit-box;
     line-height: 18px;
     width: 100%;
     height: 36px;

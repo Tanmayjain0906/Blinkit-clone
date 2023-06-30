@@ -34,9 +34,7 @@
 .blinkit-logo{
     border-right: 1px solid #eeeeee;
 }
-.hero-img{
-    width: 61vw;
-}
+
 .hero-section-01{
     display: flex;
     justify-content: center;
@@ -46,7 +44,7 @@
 .my-container{
     display: flex;
     justify-content: center;
-    width: 59vw;
+    width: 1260px;
     overflow-x: auto;
     margin-inline: auto;
     margin-top: 5px;
@@ -67,7 +65,7 @@
 {
     display: flex;
     flex-wrap: wrap;
-    width: 59vw;
+    width: 1260px;
     margin-inline: auto;
     justify-content: space-between;
     align-items: center;
@@ -170,7 +168,7 @@
 .my-categories-dairy{
     display: flex;
     justify-content: center;
-    width: 59vw;
+    width: 1260px;
     overflow-x: auto;
     margin-inline: auto;
     margin-top: 10px;
@@ -193,7 +191,7 @@
     padding: 0px;
     display: grid;
     grid-template-columns: auto auto auto;
-    width: 59vw;
+    width: 1260px;
     margin-inline: auto;
     margin-top: 100px;
 }
@@ -224,12 +222,13 @@
     justify-content: center;
     margin-inline: auto;
     white-space: normal;
-    width: 59vw;
+    width: 1260px;
     margin-top: 10px;
 }
 
 .main-footer{
     background-color: #F8F8F8;
+    align-items: center;
 }
 
 .info p{

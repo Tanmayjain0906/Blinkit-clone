@@ -34,7 +34,9 @@
 .blinkit-logo{
     border-right: 1px solid #eeeeee;
 }
-
+.hero-img{
+    width: 61vw;
+}
 .hero-section-01{
     display: flex;
     justify-content: center;
@@ -159,7 +161,9 @@
     font-weight: 600;
     line-height: 32px;
     margin-top: 5px;
-    margin-left: 445px;
+    margin-left:0px;
+    
+    text-align: center;
     margin-top: 10px;
 }
 

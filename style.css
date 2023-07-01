@@ -335,7 +335,7 @@
     }
 
     .card {
-        width: 337px;
+        width: 40vw;
 
         position: absolute;
         z-index: 1;
@@ -472,9 +472,6 @@
         padding: 40px;
     }
 
-    
-
-
     .my-container {
         display: flex;
         justify-content: center;
@@ -493,3 +490,13 @@
     .list>div {
         display: inline-block;
     }  
+
+    .banner img {
+        width: 100%;
+    }
+
+    .item-list
+    {
+        margin-top: 0px;
+    }
+}

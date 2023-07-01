@@ -436,7 +436,7 @@
     .my-categories-dairy {
         display: flex;
         justify-content: center;
-        
+
         overflow-x: auto;
         margin-inline: auto;
         margin-top: 10px;
@@ -475,13 +475,13 @@
     .my-container {
         display: flex;
         justify-content: center;
-        
+
         overflow-x: auto;
         margin-inline: auto;
         margin-top: 10px;
     }
 
-     .list {
+    .list {
         width: 100%;
         margin-inline: auto;
         white-space: nowrap;
@@ -489,14 +489,31 @@
 
     .list>div {
         display: inline-block;
-    }  
+    }
 
     .banner img {
         width: 100%;
     }
 
-    .item-list
-    {
+    .item-list {
         margin-top: 0px;
     }
+
+    .card {
+        width: 40vw;
+        position: relative;
+
+    }
+
+    .container-img {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .img-2
+    {
+        margin-left: 0px;
+    }
+
 }

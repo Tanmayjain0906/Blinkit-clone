@@ -262,6 +262,13 @@
         display: none;
     }
 
+    .my-responsive-nav {
+        background-color: white;
+        position: sticky;
+        z-index: 5;
+        top: 0px;
+    }
+
     .delivery {
         margin-left: 18px;
         display: flex;
@@ -511,8 +518,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .img-2
-    {
+    .img-2 {
         margin-left: 0px;
     }
 
